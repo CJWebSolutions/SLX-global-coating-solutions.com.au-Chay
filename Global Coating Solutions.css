@@ -1,0 +1,404 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+San');
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+#header2a:before,
+header a, 
+header span, 
+#header2a a:hover {
+    color:#fff;
+    text-shadow: 0px 1px 2px #000;
+}
+
+#header2b a,
+#header2b a:hover {
+    color: #bcbdc0;
+}
+
+blockquote {
+    color:#555;
+    border-color:#1b98e0;
+}
+
+body, 
+ul li, 
+.formbuilder-form label {
+    color: #fff;
+    font-weight: 100;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#contact h1,
+#contact h2,
+#contact h3 {
+    color: #1b98e0;
+}
+
+#services h3 {;
+    color: #1b98e0;
+}
+
+footer a:hover,
+#services p,
+.contact_detail,
+.contact_detail a,
+.contact_detail a:hover,
+.contact_detail a:focus,
+#banner h1, 
+#banner p {
+    color: #fff;
+}
+
+
+#header2b a,
+footer a, 
+.btn, 
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    text-decoration: none;
+}
+
+footer a, 
+#content h1,
+#content h2,
+#content h3,
+#contact h1,
+#contact h2,
+#contact h3 {
+    text-transform: uppercase;
+}
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4,
+p, 
+#header1 p {
+    font-family: 'Roboto Slab', 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+p,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', sans-serif;
+}
+/*----------------------------------------------------------------
+- Form
+----------------------------------------------------------------*/
+
+.form, #quote_form_form, 
+#extraFormsContainer .modal-dialog {
+    background-color: rgb(44, 55, 65);
+}
+
+/*----------------------------------------------------------------
+- Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color: #fff;
+    text-shadow:none;
+    border-radius:0px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    color: #fff;
+    border-color: none;
+    background-color: #1b98e0;
+}
+
+.btn:hover,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    background-color: #1b98e0;
+    color: #fff;
+    border:none;
+}
+
+
+/*----------------------------------------------------------------
+- Header
+----------------------------------------------------------------*/
+
+#header{}
+#header1 img {}
+
+#header2b {
+    font-size: 18px;
+}
+
+#header2 {
+    padding-top: 0px;
+}
+
+#header2a:before {
+    content: '\f098';
+    padding-right:5px;
+}
+/*----------------------------------------------------------------
+- Banner 
+----------------------------------------------------------------*/
+
+#banner, 
+#banner h1 {
+    margin:0;
+    text-align: center;
+}
+
+#banner hr {
+    width:40%;
+}
+
+#banner {
+    padding: 90px 0 70px;
+}
+
+.banner_cover {
+    margin-top: 40px;
+    opacity: 1.0;
+    background-color: rgba(33, 40, 46, 1);
+    box-shadow: 0px 4px 5px rgba(26, 26, 26, 0.3);
+}
+
+/*----------------------------------------------------------------
+- Services
+----------------------------------------------------------------*/
+
+#services{
+    padding: 50px 0;
+    background-color: rgb(28, 34, 39);
+    box-shadow: 0px 4px 5px rgba(26, 26, 26, 0.3);
+}
+
+#service1,
+#service2,
+#service3,
+#service4 {
+    transition: 0.2s 0.2s ease-out;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover {
+    transform: scale(1.1);
+    border-radius:20px;
+}
+
+/*----------------------------------------------------------------
+- Content
+----------------------------------------------------------------*/
+#content {
+    padding-bottom:0px;
+}
+
+#content img, iframe {
+    border: 3px solid #bcbdc0;
+}
+
+#content ul li:before {
+    content:'\f00c';
+}
+
+#content5b {
+    width:100%;
+}
+
+blockquote {
+    background-color: #efece2;
+}
+
+.content_block {
+    padding-bottom: 50px;
+}
+
+/*----------------------------------------------------------------
+- Contact
+----------------------------------------------------------------*/
+
+#contact h3 {
+    text-align:center;
+}
+
+.contact_address {
+    margin-bottom: 10px;
+}
+
+#contact1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;}
+
+/*----------------------------------------------------------------
+    Hide Blocks
+----------------------------------------------------------------*/
+#content6,
+#content5a,
+#contact2,
+#contact1b {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+
+footer *, 
+footer a , 
+footer {
+    color: #8a8b8b;
+}
+
+footer {
+    border-top: 3px solid #1b98e0;
+    background-color: rgb(36, 36, 36);
+    padding: 15px 0 15px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+
+@media (max-width: 1199px) {
+    .banner_cover {
+        height: 120px;
+    }
+}
+@media only screen and (min-width: 1200px){
+   .banner_cover{
+        height: 120px;
+    }
+    
+    #content3a,
+    #content4b {
+        width: 40%;
+    }
+   
+    #content3b,
+    #content4a {
+        width: 55%;
+    }
+
+    #content img {
+        width:100%;
+    }
+}
+
+@media (max-width:991px) {
+    #services h3 {
+        font-size:23px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    #banner {
+        padding: 90px 0 50px;
+    }
+    
+    #contact1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    
+    .formbuilder-form label {
+        text-align:left;
+    }
+    
+    #header2a {
+        padding-top:8px;
+        line-height:30px;
+    }
+    
+    #header2b a{
+        font-size:18px;
+    }
+    #service3 {
+        clear:left;
+    }
+    
+    #content1b ul li:before, 
+    #content2a ul li:before, 
+    #content3b ul li:before, 
+    #content4a ul li:before, 
+    #content5b ul li:before,
+    #content6a ul li:before {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin-right: 8px;
+        }
+
+    .banner_cover{
+        height: 183px;
+    }
+
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover {
+        transform: scale(1.0);
+    }
+}
+
+@media (min-width: 767px) {
+  #content1b, 
+  #content2a, 
+  #content3b, 
+  #content4a, 
+  #content5b, 
+  #content6a {
+    padding-top: 31px;
+    }
+}
+
+/*- Animation & Extras-*/
+/*#wrapper {display: flex; flex-direction: column;}
+#services {padding: 54px 0 33px;order: 2;}
+#banner { order: 1; }
+#content { order: 3; }
+#contact { order: 4; }
+footer { order: 5; }*/
+
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.btn.active, 
+.open>.dropdown-toggle.btn,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#service1:hover,#service2:hover,#service3:hover,#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
